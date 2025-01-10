@@ -101,7 +101,6 @@ if __name__ == '__main__':
     prog_creds.success(creds)
 
     h = creds.split(':')[1]
-    print(h)
     h = '$2y$10$ohq2kLpBH/ri.P5wR0P3UOmc24Ydvl9DA9H1S6ooOMgH5xVfUPrL2'
     print(h)
     prog_password = log.progress('Craking Hash')
